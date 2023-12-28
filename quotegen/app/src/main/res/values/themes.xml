@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Quotegen" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">#222020</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:statusBarColor">
+            @color/black
+        </item>
+    </style>
+
+    <style name="Theme.Quotegen" parent="Base.Theme.Quotegen" />
+</resources>

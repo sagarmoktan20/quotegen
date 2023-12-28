@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Relativelayout"
+    android:padding="16dp"
+    android:background="#231D1D"
+    tools:context=".MainActivity">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="28sp"
+    android:fontFamily="serif"
+    android:id="@+id/apnam"
+    android:layout_centerHorizontal="true"
+    android:textColor="#E60C0C"
+    android:text="@string/app_name"></TextView>
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="......"
+        tools:text="qoute will appear here"
+        android:textColor="#8F8A8A"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:id="@+id/quote_tv"
+        android:fontFamily="serif-monospace"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/quote_tv"
+        tools:text="auther"
+        android:id="@+id/authertv"
+        android:textSize="24sp"
+        android:textColor="#8F8A8A"
+        android:fontFamily="serif-monospace"
+        android:layout_marginTop="16dp"
+        ></TextView>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:text="Next"
+    android:backgroundTint="@color/white"
+android:textColor="@color/black"
+android:id="@+id/nextbtn"
+    ></Button>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        android:id="@+id/progressbr"
+        ></ProgressBar>
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@id/apnam"
+        android:text="Switch" />
+
+</RelativeLayout>
